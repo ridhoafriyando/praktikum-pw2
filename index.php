@@ -1,6 +1,6 @@
 <?php
-    require_once("Mahasiswa.php");
-    require_once("MahasiswaBaru.php");
+    require_once ("Mahasiswa.php");
+    require_once ("MahasiswaBaru.php");
 
 
     $ridho = new Mahasiswa("H1101191066", "Ridho Arjumal Afriyando", "1999-09-24", "laki-laki");
@@ -20,14 +20,14 @@
     <?php echo "<p>Hello World</p>"; ?>
     
     <?php
-        $madha->tampilkanAngkatan();
+        $ridho->tampilkanAngkatan();
         echo "<br>";
-        $rama->tampilkanAngkatan();
+        $azril->tampilkanAngkatan();
         echo "<br>";
         echo "<br>";
-        $madha->tampilkanUmur();
+        $ridho->tampilkanUmur();
         echo "<br>";
-        $rama->tampilkanUmur();
+        $azril->tampilkanUmur();
     ?>
 </body>
 </html>
